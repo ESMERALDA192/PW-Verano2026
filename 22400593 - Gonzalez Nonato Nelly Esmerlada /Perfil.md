@@ -9,7 +9,8 @@
 
 ## 💻 Intereses
 - Inteligencia Artificial
-- Desarrollo Movil
+- Administracion de Redes
+- Bases de datos
 
 ## 🛠 Tecnologías que conozco
 - Java, JavaScript, Python
