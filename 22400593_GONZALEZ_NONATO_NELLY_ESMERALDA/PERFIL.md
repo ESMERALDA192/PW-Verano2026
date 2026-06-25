@@ -22,3 +22,8 @@
 - Correo: neesgonzalezno@ittepic.edu.mx
   
 - Cel: 3231169321
+
+  ## Recomendacion de movie
+  - Scary Movie: Terrorificamente Incorrecta
+  - Toy Story 5
+  - Jackass: La Ultima Y Nos vamos
