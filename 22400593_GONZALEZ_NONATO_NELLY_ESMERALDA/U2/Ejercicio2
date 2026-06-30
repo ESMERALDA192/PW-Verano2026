@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>FUERZA REGIDA</title>
+        <body>
+            <h1>Fuerza Regida</h1>
+            <p>
+                <strong><em>Fuerza Regida</em></strong> es una agrupación de música regional mexicana originaria de Estados Unidos, reconocida por su estilo que fusiona corridos, música urbana y sonidos tradicionales.<br> Nació a mediados de la década de 2010 en San Bernardino, California, y rápidamente ganó notoriedad gracias a su autenticidad, letras directas y conexión con la vida cotidiana de la comunidad latina.<br>
+                El grupo está liderado por Jesús Ortiz Paz como vocalista principal, acompañado por músicos que aportan guitarras, tuba y tololoche, creando un sonido distintivo que mezcla lo clásico con lo contemporáneo.<br>Su propuesta ha sido clave en el auge de los llamados corridos tumbados, un subgénero que combina la narrativa tradicional de los corridos con influencias del trap y el hip-hop.<br>
+            </p>
+            <h3>Índice</h3>
+             <ol>
+        <li><a href="#foto del grupo">Fotografia del grupo</a></li>
+          <li><a href="#Integrantes">Integrantes</a></li>
+          <li><a href="#Discografia">Discografia</a></li>
+          <li><a href="#Enlaces">Enlaces</a></li>
+
+       
+    </ol>
+    <h3 id="foto del grupo">Fotografia del grupo</h3>
+       <img width="500" src="https://cst.brightspotcdn.com/dims4/default/20cf641/2147483647/strip/true/crop/8043x5093+0+0/resize/840x532!/quality/90/?url=https%3A%2F%2Fchorus-production-cst-web.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fdf%2Fa3%2F69674ede4c77ac207c540ff6c3ff%2F2243694824.jpg">
+
+       <h3 id="Integrantes">Integrantes</h3>
+      <table border="1"> 
+
+   <tr>
+      <th>Nombre</th>
+      <th>Instrumento</th>
+   
+   </tr> 
+   <tr>
+      <td>Jesús Ortiz Paz (JOP)</td>
+      <td>Vocalista</td>
+      
+   </tr>
+   <tr>
+     <td>Samuel Jáimez</td>
+     <td>Segunda voz,Guitarrista</td>
+
+   </tr>
+    <tr>
+     <td>Khrystian Ramos</td>
+     <td>Guitarrista de armonía</td>
+
+   </tr>
+    <tr>
+     <td>José García</td>
+     <td>Tuba</td>
+
+   </tr>
+   <tr>
+    <td>Moisés López</td>
+    <td>Tololoche</td>
+   </tr>
+
+
+</table>
+   <h3 id="Discografia">Discografia</h3>
+   <table border="1">
+   
+   <tr>
+      <th>Titulo</th>
+      <th>Año</th>
+   
+   </tr> 
+   <tr>
+      <td>Dolido Pero No Arrepentido</td>
+      <td>2024</td>
+      
+   </tr>
+   <tr>
+     <td>11XPANTIA</td>
+     <td>2025</td>
+
+   </tr>
+    <tr>
+     <td>PERO NO TE ENAMORES</td>
+     <td>2024</td>
+
+   </tr>
+    <tr>
+     <td>Sigan Hablando</td>
+     <td>2022</td>
+
+   </tr>
+
+   <tr>
+    <td>Pa Que Hablen</td>
+    <td>2022</td>
+   </tr>
+
+    
+   <tr>
+    <td>Del Barrio Hasta Aqui,Vol 2</td>
+    <td>2021</td>
+   </tr>
+
+    <tr>
+    <td>Adicto</td>
+    <td>2020</td>
+   </tr>
+    <tr>
+    <td>Otro Pedo,Otro Mundo</td>
+    <td>2020</td>
+   </tr>
+
+    <tr>
+    <td>Del Barrio Hasta Aqui</td>
+    <td>2019</td>
+   </tr>
+
+
+
+
+   </table>
+
+   <h3>Enlaces</h3>
+
+   <ul>
+    <a href="https://fuerzaregida.com/" title="Sitio Oficial" TARGET ="_blank">Sitio Oficial</a><br>
+    <a href="https://es.wikipedia.org/wiki/Fuerza_Regida" title="Wikipedia" TARGET ="_blank">Wikipedia</a><br>
+     <a href="https://music.apple.com/mx/artist/fuerza-regida/1275690475" title="Playsore" TARGET ="_blank">Playsore</a><br>
+   </ul>
+
+    <p>
+        Todos los derechos reservados.
+    </p>
+
+</body>
+    </head>
+</html>
