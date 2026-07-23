@@ -1,0 +1,454 @@
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #0a0e1a;
+    color: #ffffff;
+    line-height: 1.5;
+    overflow-x: hidden;
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* ============ SECCIÓN 1:  ============ */
+.hero {
+    position: relative;
+    width: 100%;
+    min-height: 520px;
+    background: 
+        linear-gradient(90deg, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0.6) 100%),
+        url('img/main-hero-background.png');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.header-top {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    z-index: 3;
+    width: 100;
+}
+
+.disney-logo {
+    height: 32px;
+    width: auto;
+}
+
+.btn-login {
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    padding: 5px 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+  
+}
+
+.btn-login:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 60px 60px 40px;
+    max-width: 640px;
+}
+
+.hero-title {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    line-height: 1.15;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.6);
+}
+
+.subscribe-form {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 16px;
+    flex-wrap: nowrap;
+    max-width: 420px;
+    width: 100%;
+}
+
+.subscribe-form input {
+    flex: 1;
+    padding:9px 12px;
+    border: 1px solid rgba(255,255,255,0.2);
+    background: rgba(0,0,0,0.5);
+    color: white;
+    border-radius: 4px;
+    font-size: 12px;
+    outline: none;
+    min-width:0;
+}
+
+.subscribe-form input::placeholder {
+    color: rgba(255,255,255,0.6);
+}
+
+.subscribe-form input:focus {
+    border-color: #64c8ff;
+}
+
+.btn-suscribir {
+    background: #64c8ff;
+    color: #0a0e1a;
+    border: none;
+    padding: 9px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+ 
+}
+
+.btn-suscribir:hover {
+    background: #82d1ff;
+}
+
+.discount-text {
+    font-size: 13px;
+    margin-bottom: 4px;
+    color: rgba(255,255,255,0.85);
+}
+
+.discount-text a,
+.link-planes {
+    color: white;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.brand-logos {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding: 25px 60px;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 2;
+}
+
+.brand-logos img {
+    height: 24px;
+    width: auto;
+    object-fit: contain;
+}
+
+.brand-plus {
+    color: rgba(255,255,255,0.7);
+    font-weight: 300;
+    font-size: 18px;
+    margin: 0 4px;
+}
+
+/* ============ SECCIÓN 2: SOLO EN DISNEY+ ============ */
+.solo-disney {
+    padding: 60px 20px;
+    text-align: center;
+    background: #0a0e1a;
+}
+
+.section-title {
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.section-subtitle {
+    font-size: 14px;
+    color: rgba(255,255,255,0.75);
+    margin-bottom: 30px;
+}
+
+.starwars-poster {
+    max-width: 420px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+}
+.starwars-wrapper {
+    position: relative;
+    max-width: 420px;
+    margin: 0 auto;
+}
+
+.starwars-titulo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 22px;
+    font-weight: 800;
+    text-shadow: 0 2px 10px rgba(0,0,0,0.8);
+    text-align: center;
+    width: 90%;
+    z-index: 2;
+}
+
+
+/* ============ SECCIÓN 3: TOP RANKING ============ */
+.top-ranking {
+    padding: 40px 20px 80px;
+    background: #0a0e1a;
+}
+
+.ranking-scroll {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.rank-card {
+    position: relative;
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rank-poster {
+    position: relative;
+    width: 110px;
+    height: 155px;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+.rank-poster img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.rank-number {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    font-size: 26px;
+    font-weight: 900;
+    color: #64c8ff;
+    text-shadow: 0 0 6px rgba(0,0,0,0.8);
+    z-index: 2;
+}
+
+.rank-title {
+    margin-top: 10px;
+    font-size: 11px;
+    text-align: center;
+    color: rgba(255,255,255,0.85);
+    font-weight: 500;
+}
+
+/* ============ SECCIÓN 4: PLANES ============ */
+.planes {
+    padding: 60px 20px;
+    background: #0a0e1a;
+    text-align: center;
+}
+
+.planes-title {
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.planes-subtitle {
+    font-size: 14px;
+    color: rgba(255,255,255,0.75);
+    margin-bottom: 40px;
+}
+
+.tabla-planes {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background: #10152a;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.tabla-planes th,
+.tabla-planes td {
+    padding: 16px 12px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+    font-size: 13px;
+}
+
+.tabla-planes th {
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    color: white;
+    padding: 20px 12px;
+}
+
+.th-premium {
+    background: #1a4bc9;
+}
+
+.th-estandar,
+.th-anuncios {
+    background: #10152a;
+}
+
+.precio {
+    font-weight: 700;
+    font-size: 13px;
+    padding: 14px 12px !important;
+}
+
+.feature-name {
+    text-align: left;
+    font-weight: 700;
+    font-size: 12px;
+    padding-left: 20px !important;
+    max-width: 260px;
+}
+
+.check {
+    color: #4ade80;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.dash {
+    color: #ef4444;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+/* ============ SECCIÓN 5: DEPORTES ============ */
+.deportes {
+    padding: 60px 20px;
+    background: #0a0e1a;
+    text-align: center;
+}
+
+.deportes-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    max-width: 700px;
+    margin: 30px auto 0;
+}
+
+.liga-card {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
+/* ============ SECCIÓN 6: DISPOSITIVOS ============ */
+.dispositivos {
+    padding: 60px 20px;
+    background: #0a0e1a;
+    text-align: center;
+}
+
+.devices{
+    max-width: 600px;
+    margin: 30px auto 0;
+}
+
+.devices-img {
+    width: 100%;
+    height: auto;
+}
+
+/* ============ SECCIÓN 7: FOOTER ============ */
+.footer {
+    padding: 40px 20px;
+    background: #05070f;
+    text-align: center;
+    border-top: 1px solid rgba(255,255,255,0.05);
+}
+
+.footer p {
+    color: rgba(255,255,255,0.5);
+    font-size: 13px;
+}
+
+/* ============ RESPONSIVE ============ */
+@media (max-width: 768px) {
+    .header-top {
+        padding: 15px 20px;
+    }
+
+    .hero-content {
+        padding: 40px 20px 30px;
+    }
+
+    .hero-title {
+        font-size: 26px;
+    }
+
+    .brand-logos {
+        padding: 20px;
+        gap: 8px;
+    }
+
+    .brand-logos img {
+        height: 18px;
+    }
+
+    .subscribe-form {
+        flex-direction: column;
+    }
+
+    .rank-card {
+        width: 100px;
+    }
+
+    .rank-poster {
+        width: 90px;
+        height: 130px;
+    }
+
+    .tabla-planes th,
+    .tabla-planes td {
+        padding: 10px 6px;
+        font-size: 11px;
+    }
+
+    .feature-name {
+        padding-left: 8px ;
+        font-size: 10px;
+    }
+
+    .deportes-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
